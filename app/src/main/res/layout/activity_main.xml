@@ -29,7 +29,24 @@
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:background="@mipmap/title_update"/>
+        <ImageView
+            android:id="@+id/iv_iv3"
+            android:layout_toLeftOf="@id/iv_iv2"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/title_share"/>
+        <ImageView
+            android:id="@+id/iv_iv4"
+            android:layout_toLeftOf="@id/iv_iv3"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/base_action_bar_action_city"/>
     </RelativeLayout>
+<FrameLayout
+    android:layout_below="@+id/rl_rl1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
+</FrameLayout>
 
 </RelativeLayout>
